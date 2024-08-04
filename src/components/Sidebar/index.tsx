@@ -3,13 +3,11 @@ import {
   faBagShopping,
   faChartColumn,
   faClipboardCheck,
-  faFireExtinguisher,
   faHome,
   faWallet,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./style.module.scss";
-import { faExclamation } from "@fortawesome/free-solid-svg-icons/faExclamation";
 
 const icons = [
   faHome,
