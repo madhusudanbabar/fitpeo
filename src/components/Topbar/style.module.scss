@@ -1,0 +1,35 @@
+.topbar {
+  @apply flex w-full py-4 px-8;
+}
+
+.search {
+  @apply relative;
+}
+
+.input {
+  @apply placeholder:text-zinc-300 bg-zinc-800 border border-zinc-700 rounded-md pl-10 py-1;
+}
+
+.magnifier {
+  @apply absolute left-0 px-4 top-1/2 transform -translate-y-1/2;
+}
+
+.icons {
+  @apply ml-auto flex gap-2 items-center;
+}
+
+.icon {
+  @apply p-2 bg-gray-600/40 rounded-full;
+}
+
+.active {
+  @apply relative block;
+}
+
+.badge {
+  @apply block size-2 bg-blue-400 top-0 rounded-full absolute right-0;
+}
+
+.profile {
+  @apply ml-2 h-8 object-cover block rounded-full;
+}
