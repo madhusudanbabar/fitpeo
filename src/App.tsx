@@ -4,6 +4,7 @@ import "./App.css";
 import { faShoppingBag } from "@fortawesome/free-solid-svg-icons";
 import Stats, { StatsProps } from "./components/Stats";
 import Profit from "./components/Profit/Profit";
+import Barchart from "./components/Barchart";
 
 const App = () => {
   const stats: StatsProps[] = [
@@ -40,19 +41,20 @@ const App = () => {
   return (
     <div className="w-screen bg-zinc-400">
       <div className="flex items-start bg-[#1F2028] max-w-screen-xl mx-auto">
-      <Sidebar />
+        <Sidebar />
         <div className="w-full">
           <Topbar />
           <div className="bg-zinc-950 p-4">
             <h1 className="text-xl font-bold leading-loose mb-4">Dashboard</h1>
             <main className="main">
-          <div className="flex gap-4">
-            {stats.map((stat) => (
-              <Stats {...stat} />
-            ))}
+              <div className="flex gap-4">
+                {stats.map((stat) => (
+                  <Stats {...stat} />
+                ))}
               </div>
               <Profit />
-        </main>
+              <Barchart />
+            </main>
           </div>
         </div>
       </div>
