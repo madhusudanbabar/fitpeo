@@ -7,6 +7,7 @@ import Profit from "./components/Profit/Profit";
 import Barchart from "./components/Barchart";
 import Goals from "./components/Goals";
 import Orders from "./components/Orders";
+import Feedback from "./components/Feedback";
 
 const App = () => {
   const stats: StatsProps[] = [
@@ -41,7 +42,7 @@ const App = () => {
   ];
 
   return (
-    <div className="w-screen bg-zinc-400">
+    <div className="w-screen">
       <div className="flex items-start bg-[#1F2028] max-w-screen-xl mx-auto">
         <Sidebar />
         <div className="w-full">
@@ -61,6 +62,7 @@ const App = () => {
               </div>
               <Goals />
               <Orders />
+              <Feedback />
             </main>
           </div>
         </div>

@@ -6,5 +6,20 @@
 }
 
 .icon {
-    @apply size-5
+    @apply size-5;
+}
+
+.active{
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: -150%;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 2rem;
+        width: .25rem;
+        background: blueviolet;
+    }
 }
