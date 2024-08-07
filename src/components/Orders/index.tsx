@@ -21,7 +21,7 @@ const Orders = () => {
             <table className="table-fixed w-full">
                 <thead>
                     <tr className="border-b-[1px] border-zinc-700 h-12 text-sm">
-                        <th className="text-left w-60 ">Customer Name</th>
+                        <th className="text-left lg:w-60 ">Customer Name</th>
                         <th className="text-left">Order No.</th>
                         <th className="text-left">Amount</th>
                         <th className="text-left">Status</th>

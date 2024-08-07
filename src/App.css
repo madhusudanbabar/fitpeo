@@ -1,5 +1,5 @@
 /* bg-[#141316] */
 
 .main {
-  @apply grid grid-cols-[3fr,2fr] gap-4;
+  @apply flex flex-col lg:grid lg:grid-cols-[3fr,2fr] gap-4;
 }

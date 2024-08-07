@@ -45,7 +45,7 @@ const App = () => {
     <div className="w-screen">
       <div className="flex items-start bg-[#1F2028] max-w-screen-xl mx-auto">
         <Sidebar />
-        <div className="w-full">
+        <div className="w-full ml-20">
           <Topbar />
           <div className="bg-zinc-950 p-4">
             <h1 className="text-xl font-bold leading-loose mb-4">Dashboard</h1>

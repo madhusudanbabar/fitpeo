@@ -5,7 +5,7 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons/faSearch";
 
 const Topbar = () => (
   <div className={styles.topbar}>
-    <div className={styles.search}>
+    <div className={styles.search} >
       <input placeholder="Search" name="search" className={styles.input} />
       <label htmlFor="search" className={styles.magnifier}>
         <FontAwesomeIcon icon={faSearch} />

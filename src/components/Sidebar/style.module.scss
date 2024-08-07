@@ -1,5 +1,5 @@
 .nav{
-    @apply h-screen flex flex-col items-center justify-between py-10
+    @apply h-screen fixed bg-zinc-800 hidden lg:flex flex-col items-center justify-between py-10
 }
 .menu{
     @apply flex flex-col items-center gap-8 w-20
