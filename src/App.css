@@ -1,5 +1,5 @@
 /* bg-[#141316] */
 
-.main{
-    @apply  bg-zinc-950
-  }
+.main {
+  @apply grid grid-cols-[3fr,2fr];
+}

@@ -37,17 +37,23 @@ const App = () => {
   ];
 
   return (
-    <div className="flex items-start bg-[#1F2028] w-screen">
+    <div className="w-screen bg-zinc-400">
+      <div className="flex items-start bg-[#1F2028] max-w-screen-xl mx-auto">
       <Sidebar />
-      <div className="screen w-full">
-        <Topbar />
-        <main className="main p-4 ">
+        <div className="w-full">
+          <Topbar />
+          <div className="bg-zinc-950 p-4">
+            <h1 className="text-xl font-bold leading-loose mb-4">Dashboard</h1>
+            <main className="main">
           <div className="flex gap-4">
             {stats.map((stat) => (
               <Stats {...stat} />
             ))}
-          </div>
+              </div>
+              <div className="profit">profit</div>
         </main>
+          </div>
+        </div>
       </div>
     </div>
   );
