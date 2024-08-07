@@ -6,6 +6,7 @@ import Stats, { StatsProps } from "./components/Stats";
 import Profit from "./components/Profit/Profit";
 import Barchart from "./components/Barchart";
 import Goals from "./components/Goals";
+import Orders from "./components/Orders";
 
 const App = () => {
   const stats: StatsProps[] = [
@@ -55,9 +56,11 @@ const App = () => {
               </div>
               <Profit />
               <div className="bg-zinc-800 rounded-md p-4">
+                <b className="text-xl">Activity</b>
                 <Barchart />
               </div>
               <Goals />
+              <Orders />
             </main>
           </div>
         </div>
