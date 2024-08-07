@@ -3,6 +3,7 @@ import Topbar from "./components/Topbar";
 import "./App.css";
 import { faShoppingBag } from "@fortawesome/free-solid-svg-icons";
 import Stats, { StatsProps } from "./components/Stats";
+import Profit from "./components/Profit/Profit";
 
 const App = () => {
   const stats: StatsProps[] = [
@@ -50,7 +51,7 @@ const App = () => {
               <Stats {...stat} />
             ))}
               </div>
-              <div className="profit">profit</div>
+              <Profit />
         </main>
           </div>
         </div>

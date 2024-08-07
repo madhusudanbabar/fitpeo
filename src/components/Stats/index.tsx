@@ -18,7 +18,7 @@ const Stats = (props: StatsProps) => {
       </div>
       <h3 className="text-sm my-2">{props.label}</h3>
       <div className="flex justify-between">
-        <span className="font-bold text-xl">{props.quantity}</span>
+        <span className="font-bold text-2xl">{props.quantity}</span>
         <span
           className={`font-bold text-xl ${
             props.delta > 0 ? "text-green-500" : "text-red-500"
