@@ -36,7 +36,7 @@ const Barchart = () =>
         options={barOptions}
         series={barSeries}
         type="bar"
-        height="350"
+        height="255"
     />
 
 export default Barchart

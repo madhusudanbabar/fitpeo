@@ -5,6 +5,7 @@ import { faShoppingBag } from "@fortawesome/free-solid-svg-icons";
 import Stats, { StatsProps } from "./components/Stats";
 import Profit from "./components/Profit/Profit";
 import Barchart from "./components/Barchart";
+import Goals from "./components/Goals";
 
 const App = () => {
   const stats: StatsProps[] = [
@@ -53,7 +54,10 @@ const App = () => {
                 ))}
               </div>
               <Profit />
-              <Barchart />
+              <div className="bg-zinc-800 rounded-md p-4">
+                <Barchart />
+              </div>
+              <Goals />
             </main>
           </div>
         </div>
