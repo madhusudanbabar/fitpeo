@@ -1,4 +1,4 @@
-import { faBowlFood, faCaretRight, faCrosshairs, faHome, faPlateWheat, faRightFromBracket } from "@fortawesome/free-solid-svg-icons";
+import { faBowlFood, faCaretRight, faCrosshairs, faPlateWheat } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Goals = () => {
